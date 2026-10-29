@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --color-forest: #183d32;
+  --color-leaf: #78a66a;
+  --color-harvest: #e99a45;
+  --color-ivory: #f7f5ed;
+  --color-charcoal: #202923;
+}
+
+@theme inline {
+  --font-sans: var(--font-manrope), var(--font-bengali), ui-sans-serif, system-ui,
+    sans-serif;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+  }
+  body {
+    background: var(--color-ivory);
+    color: var(--color-charcoal);
+    font-family: var(--font-sans);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  :focus-visible {
+    outline: 3px solid var(--color-forest);
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+}
+
+/* One deliberate page-load moment: the sample batch bar fills in. */
+@keyframes fill-in {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+.bar-fill {
+  transform-origin: left center;
+  animation: fill-in 900ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .bar-fill {
+    animation: none;
+  }
+  * {
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,606 @@
+{
+  "meta": {
+    "description": "ANNA CYCLE helps small farmers, vendors, buyers and storage operators find a clear next step for surplus produce before it is lost."
+  },
+  "brand": {
+    "tagline": "FOOD FLOWS. COMMUNITIES GROW."
+  },
+  "common": {
+    "demoData": "Sample data",
+    "language": "Change language",
+    "skipToContent": "Skip to main content",
+    "menu": "More",
+    "kg": "kg",
+    "listSurplus": "List surplus",
+    "exploreDemo": "Explore the demo",
+    "signIn": "Sign in"
+  },
+  "nav": {
+    "main": "Main navigation",
+    "dashboard": "Dashboard",
+    "surplusNew": "List surplus",
+    "marketplace": "Marketplace",
+    "hubs": "Store hubs",
+    "recovery": "Recovery",
+    "batches": "Batches",
+    "impact": "Impact",
+    "settings": "Settings"
+  },
+  "demo": {
+    "banner": "Demonstration mode: all listings, hubs and figures are sample data. No real availability or sales are shown.",
+    "localBanner": "This site keeps real accounts and the listings people create. Hubs, and anything marked “Sample data”, are samples and not real availability."
+  },
+  "auth": {
+    "login": "Sign in",
+    "register": "Create account",
+    "notConfigured": "Sign-in is not set up yet, so no accounts can be created. Until then, explore the demonstration.",
+    "fields": {
+      "name": "Your name",
+      "email": "Email",
+      "password": "Password",
+      "passwordHint": "At least 8 characters.",
+      "role": "I am a",
+      "district": "District"
+    },
+    "roles": {
+      "vendor": "Vendor (I sell produce)",
+      "buyer": "Buyer (I buy produce)"
+    },
+    "submitLogin": "Sign in",
+    "submitRegister": "Create account",
+    "working": "Please wait…",
+    "noAccount": "No account yet?",
+    "haveAccount": "Already have an account?",
+    "signOut": "Sign out",
+    "demoOff": "Accounts are switched off in demo mode. Use the “Viewing as” dropdown at the top instead.",
+    "signInToAct": "Sign in or create an account to do this.",
+    "operatorNote": "Hub operator and administrator accounts are created by the site owner, not through this form.",
+    "errors": {
+      "required": "Please fill in this field",
+      "emailInvalid": "Enter a valid email address",
+      "passwordShort": "Use at least 8 characters",
+      "passwordLong": "Use 128 characters or fewer",
+      "nameLong": "Use 80 characters or fewer",
+      "roleInvalid": "Choose vendor or buyer",
+      "districtInvalid": "Choose a district",
+      "emailTaken": "An account with this email already exists. Try signing in.",
+      "badLogin": "The email or password is not right.",
+      "tooMany": "Too many attempts. Please wait a few minutes and try again."
+    }
+  },
+  "placeholder": {
+    "intro": "This screen is not built yet",
+    "planned": "It is planned for stage",
+    "back": "Back to home"
+  },
+  "landing": {
+    "heroTitle": "Every batch of produce deserves a next step.",
+    "heroBody": "ANNA CYCLE helps small farmers, vendors, buyers and storage operators coordinate surplus produce before it is lost: nearby buyers, split-batch sales, short-term storage and safe recovery pathways.",
+    "ctaSecondary": "See how it works",
+    "sample": {
+      "label": "Sample batch",
+      "produce": "Tomatoes",
+      "rows": [
+        {
+          "name": "Buyer A",
+          "status": "Reserved"
+        },
+        {
+          "name": "Buyer B",
+          "status": "Reserved"
+        },
+        {
+          "name": "Remaining",
+          "status": "Available"
+        }
+      ],
+      "note": "Reserved plus available quantity can never exceed the batch total."
+    },
+    "howTitle": "How it works",
+    "steps": [
+      {
+        "title": "List surplus",
+        "body": "Record the produce, quantity, condition, location and a recovery deadline in one short form."
+      },
+      {
+        "title": "Match and split",
+        "body": "Nearby buyers reserve parts of a batch. The system keeps count of what is reserved and what is still available."
+      },
+      {
+        "title": "Recover",
+        "body": "If a sale stalls, the Recovery Engine suggests other buyers, storage or other pathways, and explains why."
+      }
+    ],
+    "pathwaysTitle": "The Food Recovery Engine",
+    "pathwaysBody": "Rule-based, transparent recommendations. Food safety checks always come before financial recovery.",
+    "pathways": [
+      {
+        "title": "Match another buyer",
+        "body": "Find buyers whose needs fit the batch."
+      },
+      {
+        "title": "Split the batch",
+        "body": "Sell smaller quantities to several buyers."
+      },
+      {
+        "title": "Use short-term storage",
+        "body": "Book a compatible hub for a limited time."
+      },
+      {
+        "title": "Find a food processor",
+        "body": "Route suitable produce to processing."
+      },
+      {
+        "title": "Approved recovery partner",
+        "body": "Refer eligible produce to a verified partner (demonstration only)."
+      }
+    ],
+    "hubsTitle": "Emergency Store Hubs",
+    "hubsBody": "Find short-duration storage matched to the crop. Not every vegetable should be refrigerated.",
+    "concept": "Concept",
+    "hubTypes": [
+      {
+        "name": "Community Micro-Hub",
+        "body": "Existing suitable spaces adapted for short-duration storage."
+      },
+      {
+        "name": "ANNA Modular Hub",
+        "body": "A proposed modular design with configurable ventilation and cooling where appropriate."
+      },
+      {
+        "name": "Partner Storage Hub",
+        "body": "Existing storage facilities run by third parties."
+      }
+    ],
+    "hubNote": "Bookings run 1 to 3 days at most. That is a maximum, not a guarantee that produce stays usable.",
+    "honestTitle": "Honest by design",
+    "honestItems": [
+      "Recommendations are rule-based. There is no AI model behind them.",
+      "No shelf-life predictions. We record reported condition, times and handling.",
+      "Food safety checks come before financial recovery.",
+      "Demonstration hubs and listings are labelled sample data until verified.",
+      "Estimated and verified outcomes are always shown separately."
+    ],
+    "footer": "ANNA CYCLE is a student-built prototype for the Global Sustainability Challenge. All data shown is sample data."
+  },
+  "market": {
+    "title": "Marketplace",
+    "intro": "Sample listings from sellers near you. Condition is reported by the seller and has not been inspected by ANNA CYCLE.",
+    "search": "Search",
+    "searchPlaceholder": "Tomato, Hooghly…",
+    "category": "Category",
+    "district": "District",
+    "sort": "Sort by",
+    "all": "All",
+    "onlyAvailable": "Only produce still available",
+    "apply": "Show results",
+    "clear": "Clear filters",
+    "resultsCount": "{n} listings",
+    "emptyTitle": "No listings match",
+    "emptyBody": "Try a different search, or clear the filters.",
+    "categories": {
+      "leafy": "Leafy greens",
+      "fruiting": "Fruiting vegetables",
+      "root": "Roots and tubers",
+      "gourd": "Gourds and squash"
+    },
+    "conditions": {
+      "fresh": "Fresh",
+      "good": "Good",
+      "fair": "Fair",
+      "poor": "Poor"
+    },
+    "availability": {
+      "available": "Available",
+      "partly_reserved": "Partly reserved",
+      "fully_reserved": "Fully reserved"
+    },
+    "sorts": {
+      "newest": "Newest",
+      "deadline": "Recover-by time (soonest)",
+      "price_asc": "Price: low to high",
+      "price_desc": "Price: high to low",
+      "quantity_desc": "Quantity: most first"
+    },
+    "card": {
+      "perKg": "per kg",
+      "availableOf": "{a} of {t} kg available",
+      "recoverBy": "Recover by",
+      "timeSensitive": "Time-sensitive",
+      "reported": "Condition reported"
+    },
+    "detail": {
+      "back": "Back to marketplace",
+      "batch": "Batch",
+      "seller": "Seller",
+      "price": "Asking price",
+      "total": "Total quantity",
+      "reserved": "Reserved",
+      "availableNow": "Available now",
+      "location": "Approximate location",
+      "condition": "Reported condition",
+      "conditionNote": "Reported by the seller. Not inspected by ANNA CYCLE.",
+      "harvested": "Harvested",
+      "purchased": "Purchased",
+      "storageHistory": "Storage history",
+      "unknown": "Not stated",
+      "collectionWindow": "Collection window",
+      "recoverBy": "Recover by",
+      "handling": "General handling guidance",
+      "handlingNote": "Starting guidance for this crop. It is not a shelf-life prediction and has not yet been reviewed by an expert.",
+      "findStorage": "Find storage for this batch",
+      "reservations": "Reservations",
+      "noReservations": "No reservations yet.",
+      "to": "to",
+      "reservationStatus": {
+        "requested": "Requested",
+        "confirmed": "Confirmed",
+        "collected": "Collected",
+        "cancelled": "Cancelled",
+        "declined": "Declined",
+        "expired": "Expired"
+      },
+      "listingStatus": {
+        "active": "Active",
+        "collected": "Collected",
+        "expired": "Expired",
+        "withdrawn": "Withdrawn",
+        "redirected": "Redirected"
+      },
+      "notFoundTitle": "Listing not found",
+      "notFoundBody": "It may have been removed, or the link is wrong."
+    },
+    "resultsOne": "1 listing"
+  },
+  "surplus": {
+    "title": "List surplus produce",
+    "intro": "Tell buyers what you have and by when it needs a new home. Fields marked * are required.",
+    "demoSeller": "Demonstration: this listing is created as sample vendor {name}. Real accounts arrive in Stage 10.",
+    "errorSummary": "Please check these fields:",
+    "sections": {
+      "produce": "The produce",
+      "price": "Quantity and price",
+      "where": "Where it is",
+      "condition": "Condition and history",
+      "timing": "Timing"
+    },
+    "fields": {
+      "crop": "Produce",
+      "cropChoose": "Choose a crop",
+      "name": "Name as sold (optional)",
+      "nameHint": "Leave blank to use the crop name.",
+      "quantity": "Quantity",
+      "unit": "Unit",
+      "price": "Asking price per kg (₹)",
+      "priceHint": "The price for one kilogram.",
+      "numHint": "You can type English or Bengali numbers.",
+      "district": "District",
+      "area": "Area or market",
+      "areaHint": "General area only. No exact address.",
+      "condition": "Condition today",
+      "conditionHint": "Describe it honestly. Buyers and hubs will see this.",
+      "notes": "Condition notes (optional)",
+      "harvested": "Harvested (optional)",
+      "purchased": "Purchased (optional)",
+      "storage": "Storage so far (optional)",
+      "storageHint": "For example: kept in shade, open crates.",
+      "collectFrom": "Collection starts",
+      "collectUntil": "Collection ends",
+      "recoverBy": "Sort out by",
+      "recoverHint": "When you need this batch sorted out by. Indian time."
+    },
+    "units": {
+      "kg": "Kilograms (kg)",
+      "quintal": "Quintal (100 kg)"
+    },
+    "photoNote": "Photo upload arrives in Stage 10, when a database and image storage are connected.",
+    "submit": "Create listing",
+    "submitting": "Creating…",
+    "errors": {
+      "required": "Please fill in this field",
+      "pick": "Please choose an option",
+      "numInvalid": "Enter a number",
+      "qtyMin": "Enter a quantity above 0",
+      "qtyMax": "That is more than 1,00,000 kg. Please check the number.",
+      "priceMin": "Enter a price above 0",
+      "priceMax": "That is more than ₹10,000 per kg. Please check the number.",
+      "textMax": "Please use 200 characters or fewer",
+      "dateInvalid": "Enter a valid date and time",
+      "dateFuture": "This time can’t be in the future",
+      "collectEnd": "Collection must end after it starts",
+      "recoverPast": "The deadline can’t be in the past",
+      "recoverBeforeCollect": "The deadline must be after collection starts",
+      "serverError": "The listing could not be saved. Please try again."
+    },
+    "done": {
+      "title": "Listing created",
+      "intro": "Your batch {code} is now visible in the marketplace.",
+      "demoNote": "Demo data: this listing exists only in this demo session and disappears when the server restarts.",
+      "poorNote": "You reported this batch as poor. Food safety comes first: before any sale or recovery step, check that it is still safe to sell or use. The Recovery Engine (Stage 7) will apply safety checks.",
+      "next": "What happens next",
+      "n1": "Buyers can find it in the marketplace and see what is still available.",
+      "n2": "Reservations appear on the listing page as they come in.",
+      "n3": "If a sale stalls, the Recovery Engine (Stage 7) will suggest a next step.",
+      "view": "View listing",
+      "another": "List another batch",
+      "storage": "Find storage",
+      "batch": "Batch code",
+      "quantity": "Quantity",
+      "price": "Asking price",
+      "recoverBy": "Sort out by"
+    },
+    "vendorOnly": "Only vendor accounts can list surplus produce. Create a vendor account to continue."
+  },
+  "demoView": {
+    "label": "Viewing as",
+    "note": "Sample user. This is a demo view, not a login.",
+    "roles": {
+      "vendor": "Vendor",
+      "buyer": "Buyer",
+      "hub_operator": "Hub operator",
+      "admin": "Administrator"
+    }
+  },
+  "reserve": {
+    "title": "Reserve a quantity",
+    "buyerHint": "Up to {a} kg available.",
+    "quantity": "Quantity to reserve (kg)",
+    "submit": "Reserve",
+    "submitting": "Working…",
+    "all": "Reserve all {a} kg",
+    "success": "Reserved {q} kg. The seller will confirm.",
+    "yours": "Your reservations",
+    "cancel": "Cancel reservation",
+    "confirm": "Confirm",
+    "decline": "Decline",
+    "collected": "Mark collected",
+    "sellerTitle": "Reservations on your listing",
+    "viewAsBuyer": "To reserve, choose a buyer in the Demo view at the top of the page.",
+    "closed": "This listing is not taking reservations.",
+    "you": "You",
+    "updated": "Reservation updated.",
+    "errors": {
+      "notBuyer": "Only buyers can reserve produce.",
+      "ownListing": "You can’t reserve your own listing.",
+      "listingClosed": "This listing is not taking reservations.",
+      "windowEnded": "The collection window has ended.",
+      "qtyInvalid": "Enter a number above 0.",
+      "qtyTooMuch": "Only {a} kg is left. Please ask for {a} kg or less.",
+      "soldOut": "Nothing is left to reserve.",
+      "duplicate": "You already have an active reservation on this listing. Cancel it first to change the amount.",
+      "forbidden": "You can’t do that with this reservation.",
+      "badTransition": "This reservation can no longer change that way.",
+      "notFound": "That reservation was not found."
+    }
+  },
+  "bookingStatus": {
+    "requested": "Requested",
+    "accepted": "Accepted",
+    "checked_in": "Checked in",
+    "released": "Released",
+    "declined": "Declined",
+    "cancelled": "Cancelled"
+  },
+  "hubs": {
+    "title": "Storage hubs",
+    "intro": "Short-stay storage for produce that has no buyer yet. Stays are 1 to 3 days at most, and never longer than the crop allows. Every hub here is sample data until verified.",
+    "types": {
+      "community_micro": "Community Micro-Hub",
+      "anna_modular": "ANNA Modular Hub",
+      "partner": "Partner Storage Hub"
+    },
+    "modes": {
+      "ventilated_ambient": "Ventilated, room temperature",
+      "cool": "Cool",
+      "cold": "Refrigerated"
+    },
+    "verification": {
+      "sample": "Sample data",
+      "pending": "Verification pending",
+      "verified": "Verified"
+    },
+    "concept": "Concept, not built",
+    "type": "Hub type",
+    "crop": "Produce",
+    "allCrops": "Any produce",
+    "emptyTitle": "No hubs match",
+    "emptyBody": "Try another crop or district, or clear the filters.",
+    "resultsCount": "{n} hubs",
+    "free": "Free now",
+    "capacity": "Capacity",
+    "hours": "Open",
+    "cost": "Cost",
+    "perKgDay": "per kg per day",
+    "maxStay": "Longest stay",
+    "upToDays": "Up to {n} day(s)",
+    "back": "Back to hubs",
+    "accepts": "Accepts",
+    "storage": "Storage",
+    "location": "Area",
+    "notGuarantee": "A booking is a maximum, not a guarantee that produce stays usable. Storage must suit the crop.",
+    "bookTitle": "Request a booking",
+    "bookIntro": "Choose one of your active batches. The hub operator accepts or declines.",
+    "batch": "Batch",
+    "batchChoose": "Choose a batch",
+    "quantity": "Quantity to store (kg)",
+    "days": "Days",
+    "daysHint": "Up to 3 days. The limit for your crop and this hub is checked when you send.",
+    "submit": "Send request",
+    "submitting": "Sending…",
+    "noBatches": "You have no active batches. List surplus first.",
+    "viewAsVendor": "To request a booking, choose a vendor in the Demo view at the top of the page.",
+    "success": "Request sent. The hub operator will respond. Check Batches for its status.",
+    "errors": {
+      "notVendor": "Only vendors can request storage.",
+      "notYourBatch": "Choose one of your own active batches.",
+      "qtyInvalid": "Enter a number above 0.",
+      "qtyTooMuch": "That is more than the batch ({a} kg).",
+      "daysInvalid": "Choose the number of days.",
+      "daysTooLong": "This crop and hub allow at most {a} day(s).",
+      "categoryNotAccepted": "This hub does not accept this kind of produce.",
+      "storageIncompatible": "This hub’s storage does not suit this crop.",
+      "noCapacity": "This hub has only {a} kg of room left.",
+      "hubNotFound": "Hub not found."
+    }
+  },
+  "recovery": {
+    "title": "Recovery options",
+    "intro": "Rule-based suggestions for what to do next with a batch. No AI model is used. Food safety checks come first.",
+    "batch": "Batch",
+    "show": "Show options",
+    "none": "There are no active batches to review.",
+    "recommended": "Suggested",
+    "blocked": "Not available for this batch",
+    "why": "Why",
+    "cost": "Estimated cost",
+    "demo": "Demonstration",
+    "pathways": {
+      "match_buyer": "Match another buyer",
+      "split_batch": "Split the batch",
+      "temporary_storage": "Use short-term storage",
+      "food_processor": "Find a food processor",
+      "recovery_partner": "Approved recovery partner"
+    },
+    "openListing": "Open the listing",
+    "viewHub": "View hub",
+    "reasons": {
+      "listedForBuyers": "{kg} kg is still available to buyers.",
+      "deadlineIn": "The recover-by time is about {hours} hour(s) away.",
+      "deadlinePassed": "The recover-by time has passed.",
+      "windowEnded": "The collection window has ended.",
+      "nothingAvailable": "Nothing is left to sell on this batch.",
+      "poorCondition": "Reported condition is poor. Food safety comes first, so this route is not recommended.",
+      "partlyReserved": "{n} buyer(s) already hold {kg} kg. The remaining {a} kg can go out in smaller lots.",
+      "tooSmallToSplit": "Only {a} kg is left, which is too little to split.",
+      "hubFits": "{name} suits this crop and has room: about {days} day(s), roughly ₹{cost}.",
+      "noCompatibleHub": "No listed hub has the right storage and enough room for this crop and quantity.",
+      "storageNotGuarantee": "A stay is at most {days} day(s) and is not a guarantee the produce stays usable.",
+      "processorDemo": "Demonstration only: no real processors are listed yet.",
+      "inspectFirst": "Have the produce inspected before any use.",
+      "stillSellable": "Condition and time still allow a direct sale, so processing is not needed yet.",
+      "partnerDemo": "Demonstration only: no verified recovery partners are connected yet.",
+      "conditionNotEnough": "Only produce reported fresh or good can be referred to a recovery partner.",
+      "timeNotShort": "There is still time to find buyers.",
+      "tooLittleForPartner": "Too little left to refer.",
+      "foodSafetyFirst": "Food safety checks must pass before any distribution."
+    },
+    "safety": "Food safety first: produce reported as poor is never routed to sale, storage or distribution here.",
+    "openFrom": "Recovery options for this batch"
+  },
+  "batches": {
+    "title": "Batches",
+    "empty": "Nothing here yet.",
+    "yourBatches": "Your batches",
+    "yourBookings": "Your storage bookings",
+    "yourReservations": "Your reservations",
+    "yourHubs": "Your hubs",
+    "hubBookings": "Booking requests and stored batches",
+    "allListings": "All listings",
+    "allBookings": "All storage bookings",
+    "total": "Total",
+    "reserved": "Reserved",
+    "available": "Available",
+    "status": "Status",
+    "capacity": "Capacity",
+    "free": "Free",
+    "expected": "Release expected",
+    "inspections": "Inspections",
+    "condition": "Condition",
+    "notes": "Notes (optional)",
+    "accept": "Accept",
+    "decline": "Decline",
+    "checkIn": "Check in",
+    "record": "Record inspection",
+    "release": "Release",
+    "cancel": "Cancel booking",
+    "open": "Open",
+    "kg": "kg",
+    "at": "at",
+    "errors": {
+      "forbidden": "You can’t do that with this booking.",
+      "badTransition": "This booking can no longer change that way.",
+      "notFound": "Booking not found.",
+      "checkRequired": "Record the condition on arrival to check in."
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "hello": "Viewing as {name}",
+    "activeListings": "Active listings",
+    "kgListed": "Kg on active listings",
+    "kgReserved": "Kg reserved",
+    "pendingRequests": "Reservation requests waiting",
+    "myReservations": "Active reservations",
+    "pendingBookings": "Booking requests waiting",
+    "freeCapacity": "Free capacity (kg)",
+    "hubsRun": "Hubs you run",
+    "listings": "Listings",
+    "users": "Sample users",
+    "hubsCount": "Hubs (sample)",
+    "moderation": "Moderate listings",
+    "withdraw": "Withdraw",
+    "goTo": "Go to",
+    "noHubs": "This user does not run a hub.",
+    "errors": {
+      "forbidden": "You can’t do that.",
+      "badTransition": "That listing can’t change that way.",
+      "notFound": "Not found."
+    }
+  },
+  "impact": {
+    "title": "Impact",
+    "intro": "How far produce got at each step. Every figure says what it is based on. Listed produce is not counted as saved food.",
+    "basis": {
+      "verified": "Verified",
+      "estimated": "Estimate",
+      "demo": "Sample data"
+    },
+    "banner": "All figures below come from sample data, so none of them is a real result.",
+    "kg": "kg",
+    "metrics": {
+      "listed": [
+        "Listed",
+        "Total put up for sale. This is not saved food."
+      ],
+      "matched": [
+        "Matched",
+        "Kilograms a buyer has asked for or reserved."
+      ],
+      "sold": [
+        "Sold",
+        "Kilograms where the seller confirmed the buyer."
+      ],
+      "collected": [
+        "Collected",
+        "Kilograms marked as collected."
+      ],
+      "redirected": [
+        "Redirected",
+        "Kilograms sent to storage or another pathway."
+      ],
+      "verified_recovered": [
+        "Verified recovery",
+        "Collected kilograms backed by a record. Needs confirmation in live use."
+      ],
+      "estimated_value": [
+        "Estimated value recovered",
+        "Collected kilograms times the ASKING price. Not what was actually paid."
+      ]
+    },
+    "bannerLocal": "Figures count only records created on this site. Sample data is left out. “Collected” is what sellers reported, so check it before relying on it."
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "languageHelp": "Choose the language for menus and messages.",
+    "demoUser": "Demo view",
+    "demoUserHelp": "You are viewing as {name} ({role}). Change it with the “Viewing as” dropdown at the top. This is not a login.",
+    "data": "Data",
+    "dataDemo": "Sample data kept in memory. It resets when the server restarts. Real storage and sign-in arrive with the database (see supabase/README).",
+    "about": "About",
+    "aboutBody": "ANNA CYCLE is a student-built prototype for the Global Sustainability Challenge. Recommendations are rule-based, storage guidance has not been expert-reviewed, and all facilities and figures are sample data.",
+    "account": "Account",
+    "accountHelp": "Signed in as {name} ({role}).",
+    "dataLocal": "Accounts and listings created here are saved on the server and survive restarts. Hubs and anything marked sample are sample data."
+  }
+}
